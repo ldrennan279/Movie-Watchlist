@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    }
+
+
+header{
+    width: 100vw;
+    align-items: center;
+    filter: grayscale(100%);
+    filter: saturate(30%);
+    background-image: url(./valeri-randalainen-WkG2r7FVQLw-unsplash.jpg);
+    background-size: cover;
+    background-position: 10% 35%;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 90px;
+    height: 35vh;
+}
+.page_description{
+    font-size: 5rem;
+    color: white;
+    text-shadow: black 2px 2px 20px;
+}
+.page_link{
+    font-size: 2.5rem;
+    font-weight: 100;
+    text-decoration: none;
+    color: white;
+    text-shadow: black 2px 2px 20px;
+}
+.search-section{
+    display: flex;
+    justify-content: center;
+    
+
+}
+#movie-search, .search-btn{
+    padding: 15px 7px;
+    border: gray 1px solid;
+}
